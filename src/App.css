@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+    background:#eee;
+}
+
 .card {
     background:#fff;
     border: 1px solid #ddd;
@@ -5,13 +10,10 @@
 }
 
 .container {
-    background:#eee;
     padding: 10px 15px;
     height: calc(100vh - 20px);
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .input {
@@ -44,4 +46,54 @@
     width: 100%;
     padding: 15px 0;
     text-align: center;
+}
+
+.content-post{
+    margin:  0 auto;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-body {
+    margin: 10px 0 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    background: #fff;
+    border-bottom: 1px solid #aaa;
+    padding: 10px 15px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.content-profile{
+    padding: 15px;
+}
+
+.content-profile .profile {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-img img {
+    border-radius: 100%;
 }
