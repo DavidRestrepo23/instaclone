@@ -11,9 +11,6 @@ const style = ( block ) => ({
 });
 
 class Button extends Component{
-    constructor(props){
-        super(props);
-    }
     
     render(){
         const { block } = this.props;
